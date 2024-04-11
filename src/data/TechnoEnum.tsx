@@ -17,7 +17,7 @@ export const TechnoEnum: Record<string, Techno> = {
     textColor: "#000000",
   },
   NEXT_JS: {
-    name: "NextJs",
+    name: "NextJS",
     color: "#000000",
     textColor: "#ffffff",
   },
@@ -104,6 +104,16 @@ export const TechnoEnum: Record<string, Techno> = {
   CYPRESS: {
     name: "Cypress",
     color: "#17202c",
+    textColor: "#ffffff",
+  },
+  GITHUB: {
+    name: "GitHub",
+    color: "#181717",
+    textColor: "#ffffff",
+  },
+  UNREAL: {
+    name: "Unreal Engine",
+    color: "#313131",
     textColor: "#ffffff",
   },
 }

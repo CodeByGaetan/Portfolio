@@ -139,6 +139,6 @@ export const projectList: Project[] = [
     technologies: [TechnoEnum.ANGULAR],
     skills: [SkillEnum.FRONT],
     gitHubUrl: "https://github.com/CodeByGaetan/OlympicGames",
-    demoUrl: "https://codebygaetan.github.io/OlympicGames/",
+    demoUrl: "https://codebygaetan.github.io/OlympicGames",
   },
 ]

@@ -1,7 +1,9 @@
-import AboutSection from "@/components/AboutSection"
-import HomeSection from "@/components/HomeSection"
-import NavigationBar from "@/components/NavigationBar"
-import ProjectsSection2 from "@/components/ProjectsSection2"
+import AboutSection from "@/components/section/AboutSection"
+import ContactSection from "@/components/section/ContactSection"
+import FooterSection from "@/components/section/FooterSection"
+import HomeSection from "@/components/section/HomeSection"
+import NavigationBar from "@/components/section/NavigationBar"
+import ProjectsSection from "@/components/section/ProjectsSection"
 
 export default function Home() {
   return (
@@ -10,7 +12,9 @@ export default function Home() {
       <div className="container flex flex-col gap-20">
         <HomeSection />
         <AboutSection />
-        <ProjectsSection2 />
+        <ProjectsSection />
+        <ContactSection />
+        <FooterSection />
       </div>
     </main>
   )
