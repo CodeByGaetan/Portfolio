@@ -2,13 +2,14 @@ import { Toaster } from "@/components/ui/toaster"
 import type { Metadata, Viewport } from "next"
 import { ThemeProvider } from "next-themes"
 import { Inter } from "next/font/google"
+import Head from "next/head"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "CodeByGaetan",
-  description: "Le site web et portfolio de Gaétan La Selve",
+  description: "Portfolio de Gaétan La Selve, développeur web et mobile à Lyon",
 }
 
 export const viewport: Viewport = {
@@ -29,6 +30,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
+      <Head>
+        <title>{metadata.title?.toString()}</title>
+        <meta name="description" content={metadata.description ?? ""} />
+      </Head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system">
           {children}
