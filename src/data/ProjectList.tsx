@@ -3,6 +3,16 @@ import { SkillEnum } from "./SkillEnum"
 import { TechnoEnum } from "./TechnoEnum"
 import { TypeEnum } from "./TypeEnum"
 
+import BobApp from "@/assets/images/BobApp.png"
+import ChatYCYW from "@/assets/images/ChatYCYW.png"
+import ChâTop from "@/assets/images/ChâTop.png"
+import CodeByGaetan from "@/assets/images/CodeByGaetan.png"
+import Fitime from "@/assets/images/Fitime.png"
+import OlympicGames from "@/assets/images/OlympicGames.png"
+import OrionMDD from "@/assets/images/OrionMDD.png"
+import Remover from "@/assets/images/Removerr.png"
+import YogaApp from "@/assets/images/YogaApp.png"
+
 export const projectList: Project[] = [
   {
     id: 1,
@@ -25,6 +35,7 @@ export const projectList: Project[] = [
     ],
     gitHubUrl: "https://github.com/CodeByGaetan/Removerr",
     demoUrl: null,
+    img: Remover,
   },
   {
     id: 2,
@@ -41,6 +52,7 @@ export const projectList: Project[] = [
     skills: [SkillEnum.FRONT, SkillEnum.BACK, SkillEnum.DEV_OPS],
     gitHubUrl: "https://github.com/CodeByGaetan/Portfolio",
     demoUrl: "https://www.codebygaetan.fr/",
+    img: CodeByGaetan,
   },
   {
     id: 3,
@@ -59,6 +71,7 @@ export const projectList: Project[] = [
     skills: [SkillEnum.FRONT, SkillEnum.BACK, SkillEnum.DEV_OPS],
     gitHubUrl: "https://github.com/CodeByGaetan/OrionMDD",
     demoUrl: "https://mdd-render.onrender.com/",
+    img: OrionMDD,
   },
   {
     id: 4,
@@ -74,6 +87,7 @@ export const projectList: Project[] = [
     skills: [SkillEnum.MOBILE_FULL],
     gitHubUrl: null,
     demoUrl: "https://apps.apple.com/fr/app/fitime/id6449876288",
+    img: Fitime,
   },
   {
     id: 5,
@@ -90,6 +104,7 @@ export const projectList: Project[] = [
     skills: [SkillEnum.CI_CD],
     gitHubUrl: "https://github.com/CodeByGaetan/BobApp",
     demoUrl: null,
+    img: BobApp,
   },
   {
     id: 6,
@@ -101,6 +116,7 @@ export const projectList: Project[] = [
     skills: [SkillEnum.FRONT, SkillEnum.BACK],
     gitHubUrl: "https://github.com/CodeByGaetan/ChatYCYW",
     demoUrl: null,
+    img: ChatYCYW,
   },
   {
     id: 7,
@@ -118,6 +134,7 @@ export const projectList: Project[] = [
     skills: [SkillEnum.TESTS],
     gitHubUrl: "https://github.com/CodeByGaetan/YogaApp",
     demoUrl: null,
+    img: YogaApp,
   },
   {
     id: 8,
@@ -129,6 +146,7 @@ export const projectList: Project[] = [
     skills: [SkillEnum.BACK],
     gitHubUrl: "https://github.com/CodeByGaetan/ChaTop",
     demoUrl: null,
+    img: ChâTop,
   },
   {
     id: 9,
@@ -140,5 +158,6 @@ export const projectList: Project[] = [
     skills: [SkillEnum.FRONT],
     gitHubUrl: "https://github.com/CodeByGaetan/OlympicGames",
     demoUrl: "https://codebygaetan.github.io/OlympicGames",
+    img: OlympicGames,
   },
 ]

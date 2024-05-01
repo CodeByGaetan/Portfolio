@@ -12,14 +12,14 @@ export default function HomeSection() {
         <h1 className="text-5xl font-bold mb-6">Bienvenue 👋</h1>
         <p className="text-lg mb-6">
           Je suis Gaétan La Selve et je suis ravi de vous accueillir sur mon
-          site web 👨‍💻. Vous y découvrirez quelques informations à mon sujet, un
+          site web. Vous y découvrirez quelques informations à mon sujet, un
           aperçu de mes projets de développement, ainsi que les liens vers mes
           réseaux sociaux. Vous pouvez également me contacter grâce au
           formulaire en bas de la page.
           <br />
           Bonne navigation et à très bientôt ! 🏄‍♂️
         </p>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           <Button variant="secondary" asChild>
             <a href="#contact">
               <Mail className="mr-2" />
@@ -29,7 +29,7 @@ export default function HomeSection() {
           <Button variant="default" asChild>
             <a href="/docs/cv-gls.pdf" download>
               <FileDownIcon className="mr-2" />
-              Télécharger CV
+              Télécharger mon CV
             </a>
           </Button>
         </div>

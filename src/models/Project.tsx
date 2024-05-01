@@ -1,5 +1,6 @@
 import { SkillEnum } from "@/data/SkillEnum"
 import { TypeEnum } from "@/data/TypeEnum"
+import { StaticImageData } from "next/image"
 import { Techno } from "./Techno"
 
 export interface Project {
@@ -11,4 +12,5 @@ export interface Project {
   skills: SkillEnum[]
   gitHubUrl: string | null
   demoUrl: string | null
+  img: StaticImageData
 }
