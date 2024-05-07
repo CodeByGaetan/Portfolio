@@ -58,7 +58,6 @@ export default function AboutSection() {
       className="grid items-center grid-cols-1 md:grid-cols-[550px,1fr] pt-28"
     >
       <div className="flex justify-center md:justify-start items-center">
-        <h1>TEST 1</h1>
         <Image
           src="/illustrations/About.png"
           alt="About Image"
