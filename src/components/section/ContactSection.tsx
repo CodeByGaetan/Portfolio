@@ -1,16 +1,19 @@
 "use client"
 import { EmailRequest } from "@/models/EmailRequest"
 import { LoaderCircleIcon } from "lucide-react"
+
 import Image from "next/image"
 import Link from "next/link"
 import { FormEvent, useState } from "react"
-import GitHubIcon from "../../../public/github.svg"
-import LinkedInIcon from "../../../public/linkedin.svg"
+
 import { Button } from "../ui/button"
 import { Input } from "../ui/input"
 import { Label } from "../ui/label"
 import { Textarea } from "../ui/textarea"
 import { useToast } from "../ui/use-toast"
+
+import GitHubIcon from "../../../public/brand-images/github.svg"
+import LinkedInIcon from "../../../public/brand-images/linkedin.svg"
 
 export default function ContactSection() {
   const [loading, setLoading] = useState(false)

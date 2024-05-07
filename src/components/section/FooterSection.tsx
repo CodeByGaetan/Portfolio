@@ -22,7 +22,7 @@ export default function FooterSection() {
             priority
           />
         </div>
-        <p className="text-sm text-muted-foreground">Tous droits réservés.</p>
+        <p className="text-sm">Tous droits réservés</p>
       </div>
     </section>
   )
