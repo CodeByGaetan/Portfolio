@@ -4,7 +4,8 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "CodeByGaetan",
     short_name: "CodeByGaetan",
-    description: "Le site web et portfolio de Gaétan La Selve",
+    description:
+      "Portfolio de Gaétan La Selve, développeur web et mobile à Lyon",
     start_url: "/",
     display: "standalone",
     icons: [
