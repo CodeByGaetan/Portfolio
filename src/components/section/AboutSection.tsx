@@ -5,6 +5,8 @@ import { TypeEnum } from "@/data/TypeEnum"
 import Image from "next/image"
 import { Badge } from "../ui/badge"
 
+import About from "../../../public/illustrations/About.png"
+
 export default function AboutSection() {
   let languages: string[] = [
     "JavaScript",
@@ -57,13 +59,12 @@ export default function AboutSection() {
       id="about"
       className="grid items-center grid-cols-1 md:grid-cols-[550px,1fr] pt-28"
     >
-      <div className="flex justify-center md:justify-start items-center">
+      <div className="flex justify-center md:justify-start items-center ">
         <Image
-          src="/illustrations/About.png"
+          src={About}
           alt="About Image"
-          width={500}
-          height={500}
-          className="rounded-lg border"
+          placeholder="blur"
+          className="w-[500px] rounded-lg border"
         />
       </div>
       <div className="mt-8 md:mt-0">

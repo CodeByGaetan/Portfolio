@@ -30,10 +30,8 @@ export default function ProjectDetail({
         <DialogContent className="max-w-screen-lg max-h-full flex flex-col gap-4 text-sm overflow-y-auto">
           <DialogTitle className="text-center">{project.name}</DialogTitle>
           <Image
-            src={`/project-images/${project.name}.gif`}
+            src={project.gif}
             alt={project.name}
-            width={1500}
-            height={1000}
             unoptimized
             className="border"
           />

@@ -83,18 +83,16 @@ export default function ContactSection() {
             <Image
               src={GitHubIcon}
               alt="Github Icon"
-              width={40}
-              height={40}
-              className="dark:invert"
+              priority
+              className="dark:invert size-10"
             />
           </Link>
           <Link href="https://www.linkedin.com/in/laselvegaetan">
             <Image
               src={LinkedInIcon}
               alt="Linkedin Icon"
-              width={40}
-              height={40}
-              className="dark:invert"
+              priority
+              className="dark:invert size-10"
             />
           </Link>
         </div>

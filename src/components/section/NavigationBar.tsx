@@ -9,25 +9,24 @@ import Image from "next/image"
 import ModeToggle from "../sub/ModeToggle"
 import { Button } from "../ui/button"
 
+import LogoDark from "../../../public/pwa-images/logo_dark.png"
+import LogoLight from "../../../public/pwa-images/logo_light.png"
+
 export default function NavigationBar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-background border-b py-2">
       <div className="container flex justify-between items-center">
         <a href="">
           <Image
-            src="/pwa-images/logo_light.png"
-            width={130}
-            height={0}
+            src={LogoLight}
             alt="Logo"
-            className="block dark:hidden"
+            className="w-[130px] block dark:hidden"
             priority
           />
           <Image
-            src="/pwa-images/logo_dark.png"
-            width={130}
-            height={0}
+            src={LogoDark}
             alt="Logo"
-            className="hidden dark:block"
+            className="w-[130px] hidden dark:block"
             priority
           />
         </a>

@@ -43,11 +43,8 @@ export default function ProjectsSection() {
           </div>
         </div>
         <CarouselContent>
-          {projectList.map((project: Project) => (
-            <CarouselItem
-              key={project.id}
-              className="basis-[90%] md:basis-[30%]"
-            >
+          {projectList.map((project: Project, index: number) => (
+            <CarouselItem key={index} className="basis-[90%] md:basis-[30%]">
               <ProjectCard project={project} openProject={openProject} />
             </CarouselItem>
           ))}

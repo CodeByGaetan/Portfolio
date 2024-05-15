@@ -2,6 +2,8 @@ import { FileDownIcon, Mail } from "lucide-react"
 import Image from "next/image"
 import { Button } from "../ui/button"
 
+import Hero from "../../../public/illustrations/Hero.png"
+
 export default function HomeSection() {
   return (
     <section
@@ -35,12 +37,7 @@ export default function HomeSection() {
         </div>
       </div>
       <div className="flex justify-center mt-12 sm:mt-0">
-        <Image
-          src="/illustrations/Hero.png"
-          alt="Hero Image"
-          width={300}
-          height={300}
-        />
+        <Image src={Hero} alt="Hero Image" priority className="w-[300px]" />
       </div>
     </section>
   )

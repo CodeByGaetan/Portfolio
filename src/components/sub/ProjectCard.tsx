@@ -29,18 +29,10 @@ export default function ProjectCard({
         </CardTitle>
       </CardHeader>
       <CardContent>
-        {/* <Image
-          src={`/project-images/${project.name}.png`}
-          alt={project.name}
-          width={1500}
-          height={1000}
-          className="border"
-        /> */}
         <Image
-          src={project.img}
+          src={project.png}
           alt={project.name}
-          width={1500}
-          height={1000}
+          placeholder="blur"
           className="border"
         />
       </CardContent>
