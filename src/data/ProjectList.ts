@@ -27,23 +27,6 @@ import YogaAppGif from "../../public/project-images/YogaApp.gif"
 
 export const projectList: Project[] = [
   {
-    name: "CodeByGaetan",
-    description:
-      "Le site web sur lequel vous vous trouvez, consacré à la présentation de mon profil de développeur ainsi que de mes réalisations. Ce portail comprend également un formulaire de contact ainsi que des liens vers mes réseaux sociaux.",
-    type: TypeEnum.WEB,
-    technologies: [
-      TechnoEnum.REACT,
-      TechnoEnum.NEXT_JS,
-      TechnoEnum.SHADCN_UI,
-      TechnoEnum.VERCEL,
-    ],
-    skills: [SkillEnum.FRONT, SkillEnum.BACK, SkillEnum.DEV_OPS],
-    gitHubUrl: "https://github.com/CodeByGaetan/Portfolio",
-    demoUrl: "https://www.codebygaetan.fr/",
-    png: CodeByGaetanPng,
-    gif: CodeByGaetanGif,
-  },
-  {
     name: "BaudyTraining",
     description:
       "Le site internet de Mathys Baudy, coach sportif et diététicien-nutritionniste à Lyon. Ce portail présente ses services, ses tarifs et ses coordonnées, et permet de prendre rendez-vous en ligne.",
@@ -72,9 +55,26 @@ export const projectList: Project[] = [
     ],
     skills: [SkillEnum.MOBILE_FULL],
     gitHubUrl: null,
-    demoUrl: "https://apps.apple.com/fr/app/fitime/id6449876288",
+    demoUrl: "https://fitime.codebygaetan.fr",
     png: FitimePng,
     gif: FitimeGif,
+  },
+  {
+    name: "CodeByGaetan",
+    description:
+      "Le site web sur lequel vous vous trouvez, consacré à la présentation de mon profil de développeur ainsi que de mes réalisations. Ce portail comprend également un formulaire de contact ainsi que des liens vers mes réseaux sociaux.",
+    type: TypeEnum.WEB,
+    technologies: [
+      TechnoEnum.REACT,
+      TechnoEnum.NEXT_JS,
+      TechnoEnum.SHADCN_UI,
+      TechnoEnum.VERCEL,
+    ],
+    skills: [SkillEnum.FRONT, SkillEnum.BACK, SkillEnum.DEV_OPS],
+    gitHubUrl: "https://github.com/CodeByGaetan/Portfolio",
+    demoUrl: "https://www.codebygaetan.fr/",
+    png: CodeByGaetanPng,
+    gif: CodeByGaetanGif,
   },
   {
     name: "Removerr",
