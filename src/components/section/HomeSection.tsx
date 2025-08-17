@@ -36,7 +36,7 @@ export default function HomeSection() {
           </Button>
         </div>
       </div>
-      <div className="flex justify-center mt-12 sm:mt-0">
+      <div className="flex mt-12 sm:mt-0 justify-center md:justify-end items-center">
         <Image src={Hero} alt="Hero Image" priority className="w-[300px]" />
       </div>
     </section>

@@ -59,7 +59,7 @@ export default function AboutSection() {
       id="about"
       className="grid items-center grid-cols-1 md:grid-cols-[550px,1fr] pt-28"
     >
-      <div className="flex justify-center md:justify-start items-center ">
+      <div className="flex justify-center md:justify-start items-center">
         <Image
           src={About}
           alt="About Image"
