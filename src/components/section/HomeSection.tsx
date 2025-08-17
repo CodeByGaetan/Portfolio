@@ -1,4 +1,4 @@
-import { FileDownIcon, Mail } from "lucide-react"
+import { LinkedinIcon, Mail } from "lucide-react"
 import Image from "next/image"
 import { Button } from "../ui/button"
 
@@ -29,9 +29,13 @@ export default function HomeSection() {
             </a>
           </Button>
           <Button variant="default" asChild>
-            <a href="/docs/cv-gls.pdf" download>
+            {/* <a href="/docs/cv-gls.pdf" download>
               <FileDownIcon className="mr-2" />
               Télécharger mon CV
+            </a> */}
+            <a href="https://www.linkedin.com/in/laselvegaetan">
+              <LinkedinIcon className="mr-2" />
+              Mes expériences
             </a>
           </Button>
         </div>
