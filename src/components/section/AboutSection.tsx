@@ -9,11 +9,11 @@ import About from "../../../public/illustrations/About.png"
 
 export default function AboutSection() {
   let languages: string[] = [
-    "JavaScript",
     "TypeScript",
     "HTML",
     "CSS",
     "Swift",
+    "C#",
     "Java",
     "Python",
     "SQL",
@@ -22,15 +22,19 @@ export default function AboutSection() {
   let technologies: string[] = [
     TechnoEnum.ANGULAR.name,
     TechnoEnum.REACT.name,
-    TechnoEnum.SPRING.name,
     TechnoEnum.NEXT_JS.name,
-    TechnoEnum.DOCKER.name,
-    TechnoEnum.PORTAINER.name,
-    TechnoEnum.MYSQL.name,
+    TechnoEnum.DOT_NET.name,
+    TechnoEnum.SPRING.name,
     TechnoEnum.SWIFT_UI.name,
+    TechnoEnum.PRISMA.name,
+    TechnoEnum.MYSQL.name,
+    TechnoEnum.POSTGRESQL.name,
+    TechnoEnum.DOCKER.name,
+    TechnoEnum.DAISYUI.name,
+    TechnoEnum.CLERK.name,
+    TechnoEnum.STRIPE.name,
+    TechnoEnum.VERCEL.name,
     TechnoEnum.GITHUB.name,
-    TechnoEnum.UNREAL.name,
-    "...",
   ]
 
   let skills = [
@@ -41,7 +45,6 @@ export default function AboutSection() {
     SkillEnum.TESTS,
     SkillEnum.CI_CD,
     SkillEnum.DEV_OPS,
-    "...",
   ]
 
   const getTags = (items: string[]) => (

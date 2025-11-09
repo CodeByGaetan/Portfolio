@@ -3,17 +3,18 @@ import { SkillEnum } from "./SkillEnum"
 import { TechnoEnum } from "./TechnoEnum"
 import { TypeEnum } from "./TypeEnum"
 
-import BaudyTrainingPng from "../../public/project-images/BaudyTraining.png"
-import ChatYCYWPng from "../../public/project-images/ChatYCYW.png"
-import FitimePng from "../../public/project-images/Fitime.png"
-import OrionMDDPng from "../../public/project-images/OrionMDD.png"
-import RemoverPng from "../../public/project-images/Removerr.png"
-
 import BaudyTrainingGif from "../../public/project-images/BaudyTraining.gif"
+import BaudyTrainingPng from "../../public/project-images/BaudyTraining.png"
 import ChatYCYWGif from "../../public/project-images/ChatYCYW.gif"
+import ChatYCYWPng from "../../public/project-images/ChatYCYW.png"
+import EnglishProjectGif from "../../public/project-images/EnglishProject.gif"
+import EnglishProjectPng from "../../public/project-images/EnglishProject.png"
 import FitimeGif from "../../public/project-images/Fitime.gif"
+import FitimePng from "../../public/project-images/Fitime.png"
 import OrionMDDGif from "../../public/project-images/OrionMDD.gif"
+import OrionMDDPng from "../../public/project-images/OrionMDD.png"
 import RemoverGif from "../../public/project-images/Removerr.gif"
+import RemoverPng from "../../public/project-images/Removerr.png"
 
 export const projectList: Project[] = [
   {
@@ -33,7 +34,28 @@ export const projectList: Project[] = [
     gif: FitimeGif,
   },
   {
-    name: "BaudyTraining",
+    name: "English Project",
+    description:
+      "Une application web dédiée à l’apprentissage de l’anglais, alliant fiches de grammaire simplifiées, exercices interactifs et suivi personnalisé. Un back-office complet permet une gestion dynamique du contenu. L’accès premium est sécurisé par Clerk pour l’authentification et Stripe pour le paiement.",
+    type: TypeEnum.WEB,
+    technologies: [
+      TechnoEnum.REACT,
+      TechnoEnum.NEXT_JS,
+      TechnoEnum.DAISYUI,
+      TechnoEnum.PRISMA,
+      TechnoEnum.POSTGRESQL,
+      TechnoEnum.CLERK,
+      TechnoEnum.STRIPE,
+      TechnoEnum.VERCEL,
+    ],
+    skills: [SkillEnum.FRONT, SkillEnum.BACK, SkillEnum.DEV_OPS],
+    gitHubUrl: null,
+    demoUrl: null,
+    png: EnglishProjectPng,
+    gif: EnglishProjectGif,
+  },
+  {
+    name: "Baudy Training",
     description:
       "Le site internet de Mathys Baudy, coach sportif et diététicien-nutritionniste à Lyon. Ce portail présente ses services, ses tarifs et ses coordonnées, et permet de prendre rendez-vous en ligne.",
     type: TypeEnum.WEB,
@@ -73,7 +95,7 @@ export const projectList: Project[] = [
     gif: RemoverGif,
   },
   {
-    name: "OrionMDD",
+    name: "Orion MDD",
     description:
       "Une plateforme de partage d'articles entre développeurs. Cette application permet de s'abonner aux sujets qui nous intéressent, puis de créer, consulter ou commenter des articles en relation avec l'informatique.",
     type: TypeEnum.WEB,
@@ -92,7 +114,7 @@ export const projectList: Project[] = [
     gif: OrionMDDGif,
   },
   {
-    name: "ChatYCYW",
+    name: "Chat YCYW",
     description:
       "Le prototype d'une application de chat dédiée au service client de l'agence fictive de location de voitures Your Car Your Way. Il vise à demontrer la faisabilité de cette fonctionnalité dans une architecture Client-Serveur Orientée Service.",
     type: TypeEnum.WEB,

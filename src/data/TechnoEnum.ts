@@ -116,6 +116,36 @@ export const TechnoEnum: Record<string, Techno> = {
     color: "#313131",
     textColor: "#ffffff",
   },
+  PRISMA: {
+    name: "Prisma",
+    color: "#0c344b",
+    textColor: "#ffffff",
+  },
+  CLERK: {
+    name: "Clerk",
+    color: "#2563eb",
+    textColor: "#ffffff",
+  },
+  POSTGRESQL: {
+    name: "PostgreSQL",
+    color: "#336791",
+    textColor: "#ffffff",
+  },
+  STRIPE: {
+    name: "Stripe",
+    color: "#6772e5",
+    textColor: "#ffffff",
+  },
+  DAISYUI: {
+    name: "DaisyUI",
+    color: "#1e40af",
+    textColor: "#ffffff",
+  },
+  DOT_NET: {
+    name: ".NET",
+    color: "#512bd4",
+    textColor: "#ffffff",
+  },
 }
 
 const TechnoData: Techno[] = [TechnoEnum.ANGULAR, TechnoEnum.SPRING]
