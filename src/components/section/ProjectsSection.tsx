@@ -36,7 +36,7 @@ export default function ProjectsSection() {
         className="w-full"
       >
         <div className="mb-4 flex justify-between items-center">
-          <h1 className="text-5xl font-bold">Exemples de projets</h1>
+          <h1 className="text-4xl font-bold">Exemples de projets</h1>
           <div className="flex gap-2">
             <CarouselPrevious />
             <CarouselNext />

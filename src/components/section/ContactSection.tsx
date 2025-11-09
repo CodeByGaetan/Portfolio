@@ -66,13 +66,12 @@ export default function ContactSection() {
       className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-28"
     >
       <div>
-        <h1 className="text-5xl font-bold mb-4">Me contacter</h1>
+        <h1 className="text-4xl font-bold mb-4">Me contacter</h1>
         <p>
           Je suis toujours à l&apos;écoute de nouveaux projets et opportunités,
           et ma boîte de réception reste toujours ouverte. Que vous ayez une
-          question, une idée à partager ou simplement envie de dire bonjour 👋,
-          n&apos;hésitez pas à me contacter en utilisant ce formulaire. Je
-          m&apos;engage à vous répondre dans les plus brefs délais. 📫
+          question, une idée à partager ou simplement envie de dire bonjour,
+          n&apos;hésitez pas à me contacter en utilisant ce formulaire. 📫
           <br />
           Pour en savoir plus sur mes formations et mes expériences, consultez
           mon compte LinkedIn. Vous pouvez également retrouver le code de mes
