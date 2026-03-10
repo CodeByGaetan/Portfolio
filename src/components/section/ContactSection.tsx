@@ -73,7 +73,7 @@ export default function ContactSection() {
           question, une idée à partager ou simplement envie de dire bonjour,
           n&apos;hésitez pas à me contacter en utilisant ce formulaire. 📫
           <br />
-          Pour en savoir plus sur mes formations et mes expériences, consultez
+          Pour en savoir plus sur mes expériences, formations et compétences, consultez
           mon compte LinkedIn. Vous pouvez également retrouver le code de mes
           projets sur mon profil GitHub.
         </p>

@@ -1,5 +1,4 @@
 import { Project } from "@/models/Project"
-import { SkillEnum } from "./SkillEnum"
 import { TechnoEnum } from "./TechnoEnum"
 import { TypeEnum } from "./TypeEnum"
 
@@ -27,7 +26,6 @@ export const projectList: Project[] = [
       TechnoEnum.SWIFT_UI,
       TechnoEnum.APPLE_STORE,
     ],
-    skills: [SkillEnum.MOBILE_FULL],
     gitHubUrl: null,
     demoUrl: "https://fitime.codebygaetan.fr",
     png: FitimePng,
@@ -48,7 +46,6 @@ export const projectList: Project[] = [
       TechnoEnum.STRIPE,
       TechnoEnum.VERCEL,
     ],
-    skills: [SkillEnum.FRONT, SkillEnum.BACK, SkillEnum.DEV_OPS],
     gitHubUrl: null,
     demoUrl: null,
     png: EnglishProjectPng,
@@ -65,7 +62,6 @@ export const projectList: Project[] = [
       TechnoEnum.SHADCN_UI,
       TechnoEnum.VERCEL,
     ],
-    skills: [SkillEnum.FRONT, SkillEnum.BACK, SkillEnum.DEV_OPS],
     gitHubUrl: "https://github.com/CodeByGaetan/BaudyTraining",
     demoUrl: "https://www.baudytraining.fr",
     png: BaudyTrainingPng,
@@ -82,12 +78,6 @@ export const projectList: Project[] = [
       TechnoEnum.SHADCN_UI,
       TechnoEnum.DOCKER,
       TechnoEnum.PORTAINER,
-    ],
-    skills: [
-      SkillEnum.FRONT,
-      SkillEnum.BACK,
-      SkillEnum.CI_CD,
-      SkillEnum.DEV_OPS,
     ],
     gitHubUrl: "https://github.com/CodeByGaetan/Removerr",
     demoUrl: null,
@@ -107,7 +97,6 @@ export const projectList: Project[] = [
       TechnoEnum.DOCKER,
       TechnoEnum.RENDER,
     ],
-    skills: [SkillEnum.FRONT, SkillEnum.BACK, SkillEnum.DEV_OPS],
     gitHubUrl: "https://github.com/CodeByGaetan/OrionMDD",
     demoUrl: "https://mdd-render.onrender.com/",
     png: OrionMDDPng,
@@ -119,7 +108,6 @@ export const projectList: Project[] = [
       "Le prototype d'une application de chat dédiée au service client de l'agence fictive de location de voitures Your Car Your Way. Il vise à demontrer la faisabilité de cette fonctionnalité dans une architecture Client-Serveur Orientée Service.",
     type: TypeEnum.WEB,
     technologies: [TechnoEnum.ANGULAR, TechnoEnum.SPRING, TechnoEnum.STOMP_JS],
-    skills: [SkillEnum.FRONT, SkillEnum.BACK],
     gitHubUrl: "https://github.com/CodeByGaetan/ChatYCYW",
     demoUrl: null,
     png: ChatYCYWPng,

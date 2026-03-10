@@ -1,62 +1,8 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { SkillEnum } from "@/data/SkillEnum"
-import { TechnoEnum } from "@/data/TechnoEnum"
-import { TypeEnum } from "@/data/TypeEnum"
 import Image from "next/image"
-import { Badge } from "../ui/badge"
 
 import About from "../../../public/illustrations/About.png"
 
 export default function AboutSection() {
-  let languages: string[] = [
-    "TypeScript",
-    "HTML",
-    "CSS",
-    "Swift",
-    "C#",
-    "Java",
-    "Python",
-    "SQL",
-  ]
-
-  let technologies: string[] = [
-    TechnoEnum.ANGULAR.name,
-    TechnoEnum.REACT.name,
-    TechnoEnum.NEXT_JS.name,
-    TechnoEnum.DOT_NET.name,
-    TechnoEnum.SPRING.name,
-    TechnoEnum.SWIFT_UI.name,
-    TechnoEnum.PRISMA.name,
-    TechnoEnum.MYSQL.name,
-    TechnoEnum.POSTGRESQL.name,
-    TechnoEnum.DOCKER.name,
-    TechnoEnum.DAISYUI.name,
-    TechnoEnum.CLERK.name,
-    TechnoEnum.STRIPE.name,
-    TechnoEnum.VERCEL.name,
-    TechnoEnum.GITHUB.name,
-  ]
-
-  let skills = [
-    TypeEnum.WEB,
-    TypeEnum.MOBILE,
-    SkillEnum.FRONT,
-    SkillEnum.BACK,
-    SkillEnum.TESTS,
-    SkillEnum.CI_CD,
-    SkillEnum.DEV_OPS,
-  ]
-
-  const getTags = (items: string[]) => (
-    <div className="mt-4 flex flex-wrap gap-1">
-      {items.map((item) => (
-        <Badge key={item} variant="outline">
-          {item}
-        </Badge>
-      ))}
-    </div>
-  )
-
   return (
     <nav
       id="about"
@@ -91,18 +37,6 @@ export default function AboutSection() {
           interface moderne et intuitive, pour offrir une expérience utilisateur
           agréable et efficace. 🚀
         </p>
-        <Tabs defaultValue="languages" className="mt-4 h-20">
-          <TabsList>
-            <TabsTrigger value="languages">Langages</TabsTrigger>
-            <TabsTrigger value="technologies">Outils</TabsTrigger>
-            <TabsTrigger value="skills">Compétences</TabsTrigger>
-          </TabsList>
-          <TabsContent value="languages">{getTags(languages)}</TabsContent>
-          <TabsContent value="technologies">
-            {getTags(technologies)}
-          </TabsContent>
-          <TabsContent value="skills">{getTags(skills)}</TabsContent>
-        </Tabs>
       </div>
     </nav>
   )

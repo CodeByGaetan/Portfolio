@@ -15,7 +15,7 @@ export default function HomeSection() {
         <p className="text-lg mb-6">
           Je suis Gaétan La Selve et je suis ravi de vous accueillir sur mon
           site web. Vous y découvrirez quelques informations à mon sujet, un
-          aperçu de mes projets de développement, ainsi que les liens vers mes
+          aperçu de mes projets de développement indépendant, ainsi que les liens vers mes
           réseaux sociaux. Vous pouvez également me contacter grâce au
           formulaire en bas de la page.
           <br />
@@ -25,7 +25,7 @@ export default function HomeSection() {
           <Button variant="secondary" asChild>
             <a href="#contact">
               <Mail className="mr-2" />
-              Me contacter
+              Prendre contact
             </a>
           </Button>
           <Button variant="default" asChild>
@@ -35,7 +35,7 @@ export default function HomeSection() {
             </a> */}
             <a href="https://www.linkedin.com/in/laselvegaetan">
               <LinkedinIcon className="mr-2" />
-              Mes expériences
+              Expériences & compétences
             </a>
           </Button>
         </div>
